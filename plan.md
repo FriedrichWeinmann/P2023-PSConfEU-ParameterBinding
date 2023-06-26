@@ -6,7 +6,7 @@
   + Splatting
   + Dynamic Parameters
   + From Pipeline
-  + ParameterSet
+  + ParameterSets
 
 + The Type Conversion
   + Native Conversion
@@ -15,3 +15,11 @@
 
 + Analyzing the parameter binding process
 + Extra: Tab Completion
+
+> Notes
+
+Conversion Details
+
++ LanguagePrimitives.cs:
+  + 251ff: ConversionRank, which governs sequence
+  + 1610ff: for the Type Process
